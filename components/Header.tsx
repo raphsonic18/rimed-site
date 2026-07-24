@@ -55,7 +55,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav className="flex flex-col gap-1 border-t border-line px-6 pb-6 md:hidden">
+        <nav className="flex flex-col gap-8 border-t border-line px-6 pb-6 md:hidden">
           {NAV.map((item) => (
             <Link
               key={item.href}
