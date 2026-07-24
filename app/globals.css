@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F6F9FC;
+  color: #26313F;
+}
+
+::selection {
+  background-color: #1D5A96;
+  color: white;
+}
+
+/* Focus visible clair et cohérent partout, y compris au clavier */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #E8452F;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.trace-grid {
+  background-image:
+    linear-gradient(rgba(15, 45, 82, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 45, 82, 0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Réduction de mouvement respectée */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.eyebrow {
+  font-family: var(--font-plex-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+}
