@@ -50,7 +50,7 @@ export default function LocationPage() {
           </h1>
           <p className="mt-6 max-w-xl text-lg text-slate">
             En complément de ses activités médicales et techniques, Rimed met
-            à disposition un avion privé et des résidences privées pour vos
+            à disposition des avions privés et des résidences privées pour vos
             déplacements et vos séjours.
           </p>
         </div>

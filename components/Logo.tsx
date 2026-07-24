@@ -13,7 +13,7 @@ export default function Logo({ dark = false }: { dark?: boolean }) {
         width={176}
         height={88}
         priority
-        className="h-full w-auto"
+        className="h-16 w-auto"
       />
       <span className="sr-only">— solutions SIH, RIS, PACS et équipements biomédicaux</span>
     </span>
