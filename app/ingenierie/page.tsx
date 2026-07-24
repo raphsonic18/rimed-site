@@ -46,7 +46,7 @@ export default function IngenieriePage() {
           <div>
             <Eyebrow>Ingénierie & construction</Eyebrow>
             <h1 className="mt-5 font-display text-4xl font-bold leading-[1.08] tracking-tight text-ink md:text-[3.25rem]">
-              Des hélipads à l&apos;immobilier, un même savoir-faire
+              Des hélipads, héliports à l&apos;immobilier, un même savoir-faire
               d&apos;ingénierie.
             </h1>
             <p className="mt-6 max-w-lg text-lg leading-relaxed text-slate">
