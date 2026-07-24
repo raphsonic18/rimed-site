@@ -23,7 +23,7 @@ export default function Header() {
           <Logo />
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-end gap-8 md:flex">
           {NAV.map((item) => (
             <Link
               key={item.href}
