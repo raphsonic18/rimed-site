@@ -10,8 +10,8 @@ export default function Logo({ dark = false }: { dark?: boolean }) {
       <Image
         src="/logo.png"
         alt="Rimed — vente et maintenance d'équipements médicaux, industriels et consommables"
-        width={176}
-        height={88}
+        width={200}
+        height={100}
         priority
         className="h-8 w-auto"
       />
